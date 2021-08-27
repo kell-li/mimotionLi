@@ -56,5 +56,5 @@ jobs:
           git config --global user.email "762667721@qq.com"
           git add .
           git commit -m '重置下次刷新时间'
-          git remote set-url origin http://aokii:${git_pwd}@github.com/kell-li/mimotion.git
+          git remote set-url origin http://kell-li:${git_pwd}@github.com/kell-li/mimotion.git
           git push
